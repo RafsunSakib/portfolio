@@ -1,0 +1,509 @@
+
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	font-family: 'Raleway', sans-serif;
+}
+header{
+	background-image:url(../images/rafsun.jpg);
+	background-repeat:no-repeat;
+	background-position: top center;
+	background-size: cover;
+}
+.transparent{
+	background-color:rgba(0,0,0,0.3);
+}
+.navbar-light .navbar-nav .nav-item .nav-link {
+	
+	font-size:16px;
+	font-weight:600;
+	color:#dddddd;
+	line-height:1em;
+	opacity:1;
+}
+.container-fluid{
+	padding:0px;
+}
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active {
+	font-weight:700;
+	color: #ffff00;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+	font-weight:600;
+	color: #ffff00;
+	transition:.3s;
+}
+
+/* hero-part */
+
+.menu ul li a{
+	/* font-family: Brandon_med; */
+    font-size:16px;
+    font-weight:700;
+    color:#fff  !important;
+	text-decoration: none;
+	margin-right:15px;
+}
+.menu ul li:first-child a:visited{
+	color:yellow !important;
+}
+.menu ul li a:hover{
+	color:yellow !important;
+}
+.container{
+	width:86%;
+	overflow:hidden;
+}
+.content{
+	padding-bottom: 35px;
+	cursor:pointer;
+}
+.content h1, p{
+	color:#fff;
+}
+.content h1:hover{
+	color:#ffff00;
+	
+}
+.img{
+	border-radius: 50%;
+	background-image: url(/images/rafsunsakib.jpg);
+	background-position: center;
+	background-size: cover;
+	width: 220px;
+	height: 220px;
+	border: 5px solid #fff;
+	margin:0px auto;
+
+}
+.container h1{
+	margin-top:20px;
+}
+.social_link{
+	margin-top: 20px;
+	
+}
+.social_link ul li{
+	display:inline-block;
+	margin:0 20px;
+	list-style:none;
+}
+.social_link ul li a{
+	color:#ffff00;
+	margin:-15px;
+}
+.social_link ul li a i::before{
+	width:30px;
+	height:30px;
+	border-radius: 50%;
+	background:#000;
+	display:inline-block;
+	font-size:20px;
+	padding:5px;
+	transition:.5s;
+}
+.social_link ul li a:hover i::before{
+	transform:rotate(720deg);
+}
+.type{
+	font-size:18px;
+	color:#ffff00;
+}
+
+/* about part */
+
+ .about{
+	width:100%;
+	background-color:#161616;
+	padding:70px 0px;
+}
+.about-text{
+	 font-family: Raleway;
+	
+}
+.about-text h2{
+	font-size:50px;
+	color:yellow;
+}
+.about-text h3{
+	font-size: 18px;
+	font-weight:400;
+	color:#FFFFFF;
+	padding:15px 0px;
+}
+.about-text h2,h3{
+	font-weight: 700;
+	margin: 15px 0px;
+	padding: 0px;
+}
+.about-text p{
+	font-size: 14px;
+	color:rgba(255,255,255,0.90);
+}
+.about-img{
+
+} 
+
+.about-img img{
+	width: 100%;
+	border:2px solid yellow;
+	border-radius:50%;
+}
+
+/* services part */
+.services{
+	background-color: #2B2B2B;
+	color:#000;
+	cursor:pointer;
+	padding:70px 0px;
+}
+.s-heading{
+	text-align: center;
+	padding-bottom: 35px;
+	margin:0px auto;
+}
+.s-heading h2{
+	font-size: 40px;
+	font-weight:700;
+	color:#ffff00;
+}
+h4:hover{
+	color:#ffff00;
+}
+.s-heading p{
+	color:rgba(255,255,255);
+	font-size: 18px;
+}
+.card{
+	margin:22px 0px;
+}
+.card:hover{
+	background-color: #ffff00;
+	transition:.6s;
+	box-shadow:1px 10px 25px 0px rgba(255, 255, 255, 0.6)
+}
+
+.card-body {
+	
+}
+.card-title{
+	font-family:Raleway,sans-sherif;
+	font-size:18px;
+	font-weight:600;
+	color:#161616;
+}
+.card-text{
+	font-family:Raleway,sans-sherif;
+	font-size:16px;
+	font-weight:400;
+	color:#161616;
+	position:;
+}
+
+
+/* skill-section */
+
+.skill-section{
+	background-color: #161616;
+	padding: 70px 0px;
+
+}
+.skill-section .skill-bar h3{
+	font-size:22px;
+	text-align:center;
+	color:#ffff00;
+}
+.skill-section .skill-bar{
+	margin-top:45px;
+}
+/* portfolio section */
+.portfolio-section{
+	background-color: #2B2B2B;
+	padding:70px 0px;
+}
+.filter{
+	text-align:center;
+}
+.filter button{
+	width:50px;
+	border-radius:4px;
+	background-color:#151515;
+	color:#ffff00;
+	border:1px solid #fff;
+	outline:none;
+	margin-right:5px;
+}
+.portfolio-image{
+	
+}
+.portfolio-image img{
+	width:100%;
+	margin-top:40px;
+	
+}
+
+/* contact */
+ footer{
+	background-color:#151515;
+	padding:10px 0px;
+}
+footer p{
+    margin:0px;
+    color:#ffff00;
+}
+.fhg{
+    height:50px;
+    align-items:center;
+} 
+
+/* -----------------------------------
+    10. Footer Section
+--------------------------------------*/
+.contact-section {
+	background-color: #333333;
+	padding:70px 0px;
+  }
+  /*-- Widget Title --*/
+  .res-footer-widget .title {
+	color: #ffff00;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 14px;
+	margin-bottom: 30px;
+	text-transform: uppercase;
+  }
+  .res-footer-widget {
+    margin: 55px 10px;
+  }
+  /*-- Image & Paragraph --*/
+  .res-footer-widget .res-footer-logo {
+	margin-top: 35px;
+  }
+  .res-footer-widget p {
+	color:#dddddd;
+	font-size: 13px;
+	line-height: 23px;
+  }
+
+  /*-- Link Widget --*/
+  .res-footer-widget ul {}
+  .res-footer-widget ul li {
+	color:#dddddd;
+	font-size: 14px;
+	line-height: 24px;
+  }
+  .res-footer-widget ul li + li {
+	margin-top: 8px;
+  }
+  .res-footer-widget ul li a {
+	color: inherit;
+	display: inline-block;
+  }
+  .res-footer-widget ul li a:hover {
+	color:#ffff00;
+  }
+  .res-footer-widget ul li span {
+	color:#ffff00;
+	float: left;
+	margin-right: 5px;
+	text-transform: uppercase;
+  }
+  
+  /*-- Newsletter --*/
+  .res-footer-newsletter {
+	float: left;
+	margin-top: 5px;
+	width: 100%;
+  }
+  .res-footer-newsletter form {
+	position: relative;
+  }
+  .res-footer-newsletter form input[type="email"] {
+	background-color: #3a3a3a;
+	border: 1px solid #484848;
+	border-radius: 5px;
+	color: #ffff00;
+	font-size: 12px;
+	height: 40px;
+	line-height: 24px;
+	padding: 6px 20px;
+	width: 100%;
+  }
+  .res-footer-newsletter form button.submit {
+	background-color: transparent;
+	border: medium none;
+	color: #dddddd;
+	height: 40px;
+	position: absolute;
+	right: 0;
+	text-align: center;
+	top: 0;
+	width: 60px;
+  }
+  .res-footer-newsletter form button.submit i {
+	display: block;
+	font-size: 18px;
+	line-height: 40px;
+  }
+  .res-footer-newsletter form button.submit:hover {
+	color: #ffff00;
+  }
+  
+
+  
+  
+  /* -----------------------------------
+	  11. Responsive CSS
+  --------------------------------------*/
+  
+  /*-- Laptop Screen --*/
+  @media only screen and (min-width: 1171px) and (max-width: 1400px) {
+  .res-hero-slide-content {
+	padding: 185px 0;
+  }
+  .res-about-content {
+	padding: 70px;
+  }
+  
+  }
+  
+  
+  /*-- Desktop : 992px --*/
+  @media only screen and (min-width: 992px) and (max-width: 1169px) {
+  .res-hero-slide-content {
+	padding: 115px 0;
+  }
+  .res-hero-slide-content h1 {
+	font-size: 40px;
+  }
+  .res-hero-slide-content p {
+	margin-bottom: 30px;
+	max-width: 600px;
+  }
+  .res-about-content {
+	padding: 50px;
+  }
+  
+  
+  }
+  
+  
+  /*-- Tablet : 768px --*/
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+  .res-hero-slide-content {
+	padding: 115px 0;
+  }
+  .res-hero-slide-content h1 {
+	font-size: 36px;
+  }
+  .res-hero-slide-content p {
+	margin-bottom: 30px;
+	max-width: 600px;
+  }
+  .res-about-image {
+	min-height: 400px;
+	position: static;
+  }
+  .res-about-content {
+	padding: 50px;
+  }
+  .res-testimonial-slider {
+	padding: 80px 80px 0;
+  }
+  
+  
+  }
+  
+  
+  /*-- Large Mobile : 480px --*/
+  @media only screen and (max-width: 767px) {
+  .res-section-title h1 {
+	font-size: 30px;
+  }
+  .res-hero-section {
+	margin-top: 80px;
+  }
+  .res-hero-slide-content {
+	padding: 80px 0;
+  }
+  .res-hero-slide-content h1 {
+	font-size: 24px;
+  }
+  .res-hero-slide-content p {
+	margin-bottom: 30px;
+  }
+  .res-about-image {
+	min-height: 400px;
+	position: static;
+  }
+  .res-about-content {
+	padding: 50px;
+  }
+  .res-food-menu-wrapper {
+	padding: 50px 35px 160px;
+  }
+  .res-food-menu-item .image {
+	margin-right: 15px;
+	width: 80px;
+  }
+  .res-reservation-wrapper {
+	padding: 90px 60px 100px;
+  }
+  .res-testimonial-wrapper {
+	padding: 20px 20px 0;
+  }
+  .res-testimonial-slider {
+	padding: 50px 50px 0;
+  }
+  .res-footer-widget .res-footer-logo {
+	margin-top: 0;
+  }
+  
+  }
+  
+  
+  /*-- small mobile : 320px --*/
+  @media only screen and (max-width: 479px) {
+  .res-section-title h1 {
+	font-size: 24px;
+  }
+  .res-dishes-item .content {
+	bottom: 30px;
+  }
+  .res-food-menu-item .image {
+	float: none;
+	margin-bottom: 10px;
+  }
+  .res-opening-time-list {
+	padding: 50px 15px 45px;
+  }
+  .res-opening-time-online {
+	padding: 40px 15px 50px;
+  }
+  .res-opening-time-online a {
+	margin: 5px 2px 0;
+  }
+  .res-reservation-wrapper {
+	padding: 50px 30px;
+  }
+  .res-reservation-wrapper h3 {
+	font-size: 20px;
+	margin-bottom: 50px;
+  }
+  .res-testimonial-slider {
+	padding: 50px 30px 0;
+  }
+  .res-testimonial-slide-item p {
+	font-size: 14px;
+	line-height: 26px;
+	margin-bottom: 40px;
+  }
+  .res-testimonial-slide-item img {
+	margin-bottom: 40px;
+	width: 50px;
+  }
+  .res-testimonial-slider .slick-dots li {
+	margin: 0 5px;
+  }
